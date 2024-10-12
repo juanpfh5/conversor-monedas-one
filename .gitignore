@@ -29,4 +29,4 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-/src/com/one/conversormonedas/config.properties
+/src/com/one/conversormonedas/config/config.properties
