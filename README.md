@@ -31,12 +31,6 @@ Este proyecto es una aplicación de escritorio en Java que permite convertir can
     API_KEY=tu_api_key
     ```
 
-3. Compila y ejecuta el proyecto con Maven:
-    ```sh
-    mvn clean install
-    mvn exec:java -Dexec.mainClass="com.one.conversormonedas.Main"
-    ```
-
 ## Uso
 
 1. Ejecuta la aplicación.
@@ -57,14 +51,6 @@ Este proyecto es una aplicación de escritorio en Java que permite convertir can
 - Se usa `Gson 2.11.0` jar.
 - Se usa `MigLayout 3.7.4` jar.
 - El archivo `TextPrompt` se extrajo de [Monkeyelgrande](https://youtu.be/PP-hBgaI8_A?si=sCxv_cs22t5NKpK3).
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## Funcionamiento
 Al ejecular la aplicación se muestra la siguiente interfaz:
