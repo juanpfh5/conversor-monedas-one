@@ -31,12 +31,6 @@ Este proyecto es una aplicación de escritorio en Java que permite convertir can
     API_KEY=tu_api_key
     ```
 
-3. Compila y ejecuta el proyecto con Maven:
-    ```sh
-    mvn clean install
-    mvn exec:java -Dexec.mainClass="com.one.conversormonedas.Main"
-    ```
-
 ## Uso
 
 1. Ejecuta la aplicación.
@@ -58,30 +52,25 @@ Este proyecto es una aplicación de escritorio en Java que permite convertir can
 - Se usa `MigLayout 3.7.4` jar.
 - El archivo `TextPrompt` se extrajo de [Monkeyelgrande](https://youtu.be/PP-hBgaI8_A?si=sCxv_cs22t5NKpK3).
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
 ## Funcionamiento
 Al ejecular la aplicación se muestra la siguiente interfaz:
-![Imagen 1](imgsReadme/img1.png)
+<br>
+![Imagen interfaz](imgsReadme/img1.png)
+<br>
 La interfaz inicial consiste en una caja de texto, 2 listas desplegables (las cuales serán las encargadas de especificar las monedas de origen y a convertir, respectívamente) y el boton Convertir el cual convertirá la cantidad de la moneda origen a la moneda a convertir.
-![Imagen 2](imgsReadme/img2.png)
-
+<br>
+![Imagen desplegable](imgsReadme/img2.png)
+<br>
 Al presionar el botón Convertir, se mostrará en la caja de texto la cantidad convertida.
-
-![Imagen 3](imgsReadme/img4.png)
-
+<br>
+![Imagen conversión](imgsReadme/img4.png)
+<br>
 También, se dispone de un menú ubicado en la parte superior de la ventana, el cuenta con las opciones Historial y Salir.
-
-![Imagen 4](imgsReadme/img3.png)
-
+<br>
+![Imagen menú](imgsReadme/img3.png)
+<br>
 La opción Historial permite mostrar al usuario una tabla con todas las conversiones que ha realizado durante la ejecución del programa, junto con la fecha en la que se realizó.
-
-![Imagen 5](imgsReadme/img5.png)
-
+<br>
+![Imagen historial](imgsReadme/img5.png)
+<br>
 La opción de Salir permite finalizar el programa.
